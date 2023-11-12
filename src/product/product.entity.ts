@@ -4,10 +4,10 @@ import { CustomerEntity } from "../customer/customer.entity";
 import { CategoryEntity } from "../category/category.entity";
 import { PurchaseProductEntity } from "../purchase/purchases-products.entity";
 
-@Entity({ name: "product" })
+@Entity({ name: "usuarios" })
 export class ProductEntity extends BaseEntity {
   @Column()
-  productName!: string;
+  id!: string;
 
   @Column()
   description!: string;
